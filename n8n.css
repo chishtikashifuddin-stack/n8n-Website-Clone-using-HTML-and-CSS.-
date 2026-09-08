@@ -1,0 +1,731 @@
+*{
+	margin  :0%;
+	padding :0%;
+	font-family: "Roboto", sans-serif;
+	
+}
+
+body{
+	
+	background-color : black;
+	box-sizing : border-box;
+	
+}
+
+nav{
+	
+	background-color : #15121E;
+	width : 92%;
+	margin-top : 1%;
+	padding : 0.2%;
+	display : flex;
+	border : 0.5px solid LightGrey;
+	border-radius : 20px;
+	position : fixed;
+	top : 0;
+	margin-left : 4%;
+	opacity : 0.9;
+	z-index : 3;
+}
+
+.div1{
+	display : flex;
+	justify-content : space-between;
+	width : 80%;
+	color : LightGrey;
+	
+	
+	
+}
+
+.img1{
+	margin-top : 1%;
+	width : 15%
+	
+}
+
+.div2{
+	
+	margin-top : 2%;
+	
+}
+
+.div3{
+	width : 10%;
+	margin-top : 1%;
+	background-color : #3A3841;
+	color : white;
+	padding : 0.5%;
+	height : 24px;
+	border-radius : 10px;
+	border : 1px solid Grey;
+	
+}
+
+.icon1{
+	font-size : 22px;
+	
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #ff4b1f 0%, #ff9068 51%, #ff4b1f 100%);
+}
+
+.btn-grad {
+  margin: 10px;
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  border: none;
+  width : 13%;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.div2:hover,.div32:hover,.div33:hover{
+	
+	color : white;
+	
+}
+
+.s2{
+	
+	display : flex;
+	color : white;
+	justify-content : space-between;
+}
+.img2{
+	margin-left : 55%;
+}
+.div4{
+	
+	margin-top : 15%;
+	position :absolute;
+	width : 50%;
+	margin-left : 2%
+}
+
+.he1{
+	
+	font-size : 45px;
+	color : #B6B5B9;
+	
+}
+.he2{
+	
+	font-size : 45px;	
+}
+
+.div5{
+	
+	display : flex;
+	
+}
+
+.b1 {
+  background-image: linear-gradient(to right, #ff4b1f 0%, #ff9068 51%, #ff4b1f 100%);
+}
+
+.b1 {
+  margin: 10px;
+  padding: 15px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  border: none;
+  width : 25%;
+  font-size : 9px;
+}
+
+.b1:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.b2{
+	
+	background-color : #28252D;
+	color : white;
+	width : 20%;
+	border-radius : 10px;
+	border : none;
+	text-align : center;
+	height : 45px;
+	margin-top : 1.5%;
+	
+	
+}
+
+.div6{
+	color : #CAC7C8;
+	margin-top : 10%;
+	font-size : 20px;
+}
+
+.div7{
+	
+	display : flex;
+	margin-top : 15%;
+	width : 100%;
+	padding : 10%;
+}
+.s3{
+	
+	margin-top : 5%;
+	padding : 1%;
+	height : 600px;
+		
+}
+
+.div8{
+	display : flex;
+	
+}
+
+.div9{
+	
+	
+	width : 20%;
+	background-color : #0E0918;
+	overflow : auto;
+	margin-left : 2%;
+	height : 500px;
+	border-radius : 10px;
+	margin-top : 2%;
+	padding : 0.5%;
+}
+
+.b6{
+	
+	color : white;
+	
+}
+
+.div10{
+	
+	color : #999394;
+	font-size : 18px;
+	margin-top : 1%;
+	background-color : #211C2A;
+	padding : 4%;
+	height : 80px;
+	width : 90%;
+	margin-top : 1%;
+	border-left : 4px solid #FF492C;
+}
+
+.div11{
+	
+	color : #999394;
+	font-size : 18px;
+	margin-left : 1%;
+	margin-top : 15%;
+	padding : 4%;
+	height : 80px;
+}
+
+
+.div12{
+	
+	display : flex;
+	justify-content : space-around;
+	
+}
+
+.y1 {
+  background-image: linear-gradient(to right, #C04848 0%, #480048 51%, #C04848 100%);
+}
+
+.y1 {
+	margin: 10px;
+	padding: 15px ;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	border-radius: 10px;
+	display: block;
+	outline: none;
+	border: none;
+	width : 30%;
+	display : flex;
+}
+
+.y1:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.b3{
+	
+	font-size : 18px;
+	margin-top : 0.5%;
+	margin-left : 1%;
+	color : white;
+}
+
+.d1{
+	
+	color : #CFCBCC;
+	font-size : 15px;
+	
+}
+.d2{
+	
+	color : #B6B5B9;
+	font-size : 20px;
+	text-align : center;
+	margin-top : 6%
+	
+}
+.t2{
+	
+	color : white
+	
+}
+
+.div13{
+	margin-top : 5%;
+	padding : 1%;	
+	width : 60%;
+	margin-left : 14%;
+	
+}
+.div14{
+	
+	background-color : #1D1A33;
+	width : 5%;
+	text-align : center;
+	padding : 2%;
+	margin-left : 1%;
+	height : 45px;
+	border : 1px solid #C0CECA;
+	border-radius : 10px
+	
+}
+	
+
+.div15{
+	
+	display : flex;
+	
+	
+}
+
+.y2 {
+  background-image: linear-gradient(to right, #24C6DC 0%, #514A9D 51%, #24C6DC 100%);
+}
+
+.y2 {
+  margin: 8px;
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  border: none;
+  margin-top : 2%;
+}
+
+.y2:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.div16{
+	
+  display : flex;
+  margin-left : 1%;
+
+}
+
+.d3{
+	
+	color : #B6B5B9;
+	font-size : 20px;
+	text-align : center;
+	margin-top : 2%
+	
+}
+
+.div17{
+	margin-top : 4%;
+	width : 70%;
+	
+	
+}
+.div18{
+	
+	background-color : #1B1728;
+	color : white;
+	width : 92%;
+	padding : 2%;
+	border-radius : 18px;
+	margin-left : 2%;
+	display : flex;
+	border : 1px solid #3E3A46;
+	height : 350px
+}
+.t3{
+	
+	color : LightGrey;
+	
+}
+.t4{
+	
+	margin-top : 4%;
+	color : white;
+}
+.div19{
+	
+	padding : 2%;
+	
+}
+.div20{
+	width : 94%;
+	margin-top : 1%;
+	margin-left : 2%;
+	background-color : #1D1936;
+	display : flex;
+	padding : 1%;
+	border-radius : 20px;
+	border : 1px solid #3E3A46;
+}
+.div21{
+	
+	width : 25%;
+	height : 690px;
+	background-color : #1B1728;
+	margin-top :4%;
+	display : flex;
+	padding : 1%;
+	border-radius : 10px;
+    border : 1px solid #3E3A46;
+	
+	
+}
+.t5{
+	
+	margin-top : 4%;
+	color : white;
+	margin-left : 10%;
+}
+.t6{
+	
+	margin-left : 10%;
+}
+
+.div22{
+	
+	width : 50%;
+	margin-top : 12%;
+	margin-left : 4%;
+	background-color : #1D1729;
+	color : #9D9786;
+	border : 1px solid Grey;
+	padding : 2%;
+	border-radius : 10px;
+	font-size : 16px
+}
+.div23{
+	
+	width : 50%;
+	margin-top : 12%;
+	margin-left : 44%;
+	background-color : #1D1729;
+	color : #9D9786;
+	border : 1px solid Grey;
+	padding : 2%;
+	border-radius : 10px;
+	font-size : 16px
+}
+
+.s5{
+	background-image : url("https://static.vecteezy.com/system/resources/thumbnails/070/841/723/small_2x/an-orange-light-shines-in-the-middle-of-the-night-sky-photo.jpg");
+	
+	background-repeat : no-repeat;
+	color : white;
+	display : flex;
+	justify-content : space-around;
+	height : 550px; 
+	position : sticky;
+	top : 150px;
+	z-index : 1;
+}
+.div24{
+	width : 40%;
+	margin-left : 3%;
+	text-align : center;
+	margin-top : 4%;
+}
+.t7{
+	
+	font-size : 40px;
+	margin-top : 8%;
+	
+}
+.v{
+	
+	height : 500px;
+	margin-top : 2%;
+	padding : 1%;
+	width : 90%;
+
+}
+
+.div25{
+	width : 50%;
+}
+.t8{
+	
+	margin-top : 2%;
+	color : #9D9786;
+}
+
+.t9{
+	margin-top : 2%;
+}
+
+
+.s6{
+	
+	color : white;
+	background-color : #0E0918;
+	position:sticky;
+	top : 0px;
+	z-index:2;
+	padding :1%;
+
+	
+}
+
+.div26{
+	
+	display : flex;
+	color : white;
+	margin-top : 5%;
+	margin-left : 5%;		
+}
+
+.icon2{
+	
+	font-size:20px;
+	font-family: "Roboto", sans-serif;
+	text-align : center;
+	margin-left : 2%;
+	margin-top : 4%;
+}
+
+.d4{
+	
+	margin-left : 6%;
+	margin-top : 8%;
+	
+}
+
+.div27{
+	
+	display : flex;
+	justify-content : space-around;
+	background-color : #0E0918;
+	margin-left : 2%;
+	margin-top : 2%;
+	border-radius : 15px;
+	border : 1px solid Grey;
+	
+}
+.d5{
+	
+	text-align : center;
+	margin-top : 5%;
+	font-size : 40px;
+	
+}
+.div28{
+	display : flex;
+	justify-content : space-around;
+	margin-top : 5%;
+}
+
+.div29{
+	
+	background-color : #150E2E;
+	padding : 4%;
+	border-radius : 15px;
+	height : 600px;
+	border : 1px solid Grey;
+	
+}
+
+.t10{
+	
+	margin-top : 10%;
+	height : 120px;
+	border-bottom : 1px solid Grey;
+	
+}
+
+.t11{
+	
+	margin-top : 10%;
+	color :#BBB7BA;
+}
+
+.t12{
+	
+	margin-top : 8%;
+	margin-left : 2%;
+	
+}
+.t13{
+	
+	margin-left : 2%;
+	color :#BBB7BA;
+	
+}
+
+.d6{
+	
+	margin-top : 8%;
+	
+}
+
+footer{
+	background-image : url("https://static.vecteezy.com/system/resources/thumbnails/070/841/723/small_2x/an-orange-light-shines-in-the-middle-of-the-night-sky-photo.jpg");
+	
+	background-repeat : no-repeat;
+	height : 500px; 
+	position : sticky;
+	top : 150px;
+	box-sizing : border-box;
+	margin-top : 4%;
+	padding : 2%;
+}
+.t14{
+	
+	font-size : 38px;
+}
+.t15{
+	
+	font-size : 20px;
+	margin-top : 4%;
+	color : #CCC8C9;
+}
+
+
+
+.btn-grad1 {
+  background-image: linear-gradient(to right, #ff4b1f 0%, #ff9068 51%, #ff4b1f 100%);
+}
+
+.btn-grad1 {
+  margin: 10px;
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  border: none;
+  margin-left : 44%;
+}
+
+.btn-grad1:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.div31{
+	
+	background-color : #281117;
+	width : 98%;
+	padding : 1%;
+	opacity : 0.9;
+	display : flex;
+	justify-content : space-around;
+	height : 350px;
+	border-radius : 20px;
+	margin-top : 5%;
+}
+.t16{
+	
+	margin-top : 2%;
+	margin-left : 1%;
+	
+}
+
+.div32{
+	width : 20%;
+	color : LightGrey;
+	padding : 2%;
+	height : 250px;
+	
+}
+
+.div33{
+	
+	margin-left : 10%;
+	color : LightGrey;
+	margin-top : 5%;
+}
+.div34{
+	
+	text-align : center;
+	
+}
+
+.div30{
+	
+	width : 98%;
+	margin-left : 1%;
+	
+}
+
+.div35{
+	
+	display : flex;
+	background-color : #281117;
+	border-radius : 8px;
+	width : 100%;
+	border-top : 1px solid white;
+	
+}
+
+.div36{
+	
+	padding : 1%;
+	border-right : 1px solid white;
+	
+	
+	
+}
+.div37{
+	
+	padding : 1%;
+}
